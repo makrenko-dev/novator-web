@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  background-color: #333; /* Цвет фона Navbar */
+  padding: 10px 0 10px 20px; /* Отступы сверху и снизу */
+}
+
+.navbar-nav {
+  list-style-type: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем отступы */
+  margin: 0; /* Убираем отступы */
+  display: flex; /* Располагаем элементы в строку */
+}
+
+.nav-item {
+  margin-right: 10px; /* Отступ между пунктами меню */
+}
+
+.nav-link {
+  color: #fff; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  padding: 10px; /* Отступы вокруг текста */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Жирный текст для активного элемента */
+}
